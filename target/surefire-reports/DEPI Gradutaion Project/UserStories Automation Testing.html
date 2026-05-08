@@ -1,0 +1,245 @@
+<html>
+<head>
+<title>TestNG:  UserStories Automation Testing</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>UserStories Automation Testing</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>33/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri May 08 19:23:18 EEST 2026</td>
+</tr>
+<tr><td>Total time:</td><td>164 seconds (164338 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Add2Cart.ProductsPageAddProducts()'><b>ProductsPageAddProducts</b><br>Test class: Add2Cart</td>
+<td></td>
+<td>4</td>
+<td>Add2Cart@49d904ec</td></tr>
+<tr>
+<td title='login.invalid_login()'><b>invalid_login</b><br>Test class: login</td>
+<td></td>
+<td>2</td>
+<td>login@3eb7fc54</td></tr>
+<tr>
+<td title='logout.verifyLogoutClearsCredentials()'><b>verifyLogoutClearsCredentials</b><br>Test class: logout</td>
+<td></td>
+<td>5</td>
+<td>logout@3d680b5a</td></tr>
+<tr>
+<td title='E2E.ENDTOENDTEST()'><b>ENDTOENDTEST</b><br>Test class: E2E</td>
+<td></td>
+<td>11</td>
+<td>E2E@4b5d6a01</td></tr>
+<tr>
+<td title='Add2Cart.ProductDetails()'><b>ProductDetails</b><br>Test class: Add2Cart</td>
+<td></td>
+<td>2</td>
+<td>Add2Cart@49d904ec</td></tr>
+<tr>
+<td title='Sort.SORT_product_Price_LowToHigh()'><b>SORT_product_Price_LowToHigh</b><br>Test class: Sort</td>
+<td></td>
+<td>1</td>
+<td>Sort@3ba9ad43</td></tr>
+<tr>
+<td title='RemoveItemsIntegration.ProductsPageAddAllItems()'><b>ProductsPageAddAllItems</b><br>Test class: RemoveItemsIntegration</td>
+<td></td>
+<td>7</td>
+<td>RemoveItemsIntegration@48e4374</td></tr>
+<tr>
+<td title='ProductDetails.RemoveBackpackAndVerifyBadge()'><b>RemoveBackpackAndVerifyBadge</b><br>Test class: ProductDetails</td>
+<td></td>
+<td>3</td>
+<td>ProductDetails@4a22f9e2</td></tr>
+<tr>
+<td title='Sort.SORT_product_Price_HighToLow()'><b>SORT_product_Price_HighToLow</b><br>Test class: Sort</td>
+<td></td>
+<td>1</td>
+<td>Sort@3ba9ad43</td></tr>
+<tr>
+<td title='Add2Cart.AddProduct()'><b>AddProduct</b><br>Test class: Add2Cart</td>
+<td></td>
+<td>4</td>
+<td>Add2Cart@49d904ec</td></tr>
+<tr>
+<td title='Sort.verifyCorrectItemAddedFromSortedList()'><b>verifyCorrectItemAddedFromSortedList</b><br>Test class: Sort</td>
+<td></td>
+<td>1</td>
+<td>Sort@3ba9ad43</td></tr>
+<tr>
+<td title='Sort.verifyProductDetailsPageOpens()'><b>verifyProductDetailsPageOpens</b><br>Test class: Sort</td>
+<td></td>
+<td>3</td>
+<td>Sort@3ba9ad43</td></tr>
+<tr>
+<td title='ProductDetails.BackToProductsAndNavigateToBikeLight()'><b>BackToProductsAndNavigateToBikeLight</b><br>Test class: ProductDetails</td>
+<td></td>
+<td>3</td>
+<td>ProductDetails@4a22f9e2</td></tr>
+<tr>
+<td title='ProductDetails.AddBikeLightAndVerifyBadge()'><b>AddBikeLightAndVerifyBadge</b><br>Test class: ProductDetails</td>
+<td></td>
+<td>2</td>
+<td>ProductDetails@4a22f9e2</td></tr>
+<tr>
+<td title='Add2Cart.DetailsPageAddProduct()'><b>DetailsPageAddProduct</b><br>Test class: Add2Cart</td>
+<td></td>
+<td>2</td>
+<td>Add2Cart@49d904ec</td></tr>
+<tr>
+<td title='Add2Cart.CartsPageandCheck()'><b>CartsPageandCheck</b><br>Test class: Add2Cart</td>
+<td></td>
+<td>2</td>
+<td>Add2Cart@49d904ec</td></tr>
+<tr>
+<td title='logout.verifyBackNavigationBlockedAfterLogout()'><b>verifyBackNavigationBlockedAfterLogout</b><br>Test class: logout</td>
+<td></td>
+<td>6</td>
+<td>logout@3d680b5a</td></tr>
+<tr>
+<td title='Add2Cart.ProductsPageAddProduct()'><b>ProductsPageAddProduct</b><br>Test class: Add2Cart</td>
+<td></td>
+<td>2</td>
+<td>Add2Cart@49d904ec</td></tr>
+<tr>
+<td title='RemoveItemsIntegration.DetailsPageRemoveItem()'><b>DetailsPageRemoveItem</b><br>Test class: RemoveItemsIntegration</td>
+<td></td>
+<td>4</td>
+<td>RemoveItemsIntegration@48e4374</td></tr>
+<tr>
+<td title='ProductDetails.CartContainsBothItems()'><b>CartContainsBothItems</b><br>Test class: ProductDetails</td>
+<td></td>
+<td>3</td>
+<td>ProductDetails@4a22f9e2</td></tr>
+<tr>
+<td title='RemoveItemsIntegration.CartsPageNavigation()'><b>CartsPageNavigation</b><br>Test class: RemoveItemsIntegration</td>
+<td></td>
+<td>2</td>
+<td>RemoveItemsIntegration@48e4374</td></tr>
+<tr>
+<td title='Sort.SORT_product_Name_ZtoA()'><b>SORT_product_Name_ZtoA</b><br>Test class: Sort</td>
+<td></td>
+<td>1</td>
+<td>Sort@3ba9ad43</td></tr>
+<tr>
+<td title='Add2Cart.ProductsPageAdd2Product()'><b>ProductsPageAdd2Product</b><br>Test class: Add2Cart</td>
+<td></td>
+<td>6</td>
+<td>Add2Cart@49d904ec</td></tr>
+<tr>
+<td title='logout.verifyLogoutRedirectsToLogin()'><b>verifyLogoutRedirectsToLogin</b><br>Test class: logout</td>
+<td></td>
+<td>6</td>
+<td>logout@3d680b5a</td></tr>
+<tr>
+<td title='login.valid_login()'><b>valid_login</b><br>Test class: login</td>
+<td></td>
+<td>4</td>
+<td>login@3eb7fc54</td></tr>
+<tr>
+<td title='RemoveItemsIntegration.CartsPageRemoveItem()'><b>CartsPageRemoveItem</b><br>Test class: RemoveItemsIntegration</td>
+<td></td>
+<td>2</td>
+<td>RemoveItemsIntegration@48e4374</td></tr>
+<tr>
+<td title='ProductDetails.NavigateToProductViaImage()'><b>NavigateToProductViaImage</b><br>Test class: ProductDetails</td>
+<td></td>
+<td>3</td>
+<td>ProductDetails@4a22f9e2</td></tr>
+<tr>
+<td title='login.Locked_login()'><b>Locked_login</b><br>Test class: login</td>
+<td></td>
+<td>2</td>
+<td>login@3eb7fc54</td></tr>
+<tr>
+<td title='Sort.verifyAddFirstSortedProductToCart()'><b>verifyAddFirstSortedProductToCart</b><br>Test class: Sort</td>
+<td></td>
+<td>2</td>
+<td>Sort@3ba9ad43</td></tr>
+<tr>
+<td title='ProductDetails.AddBackpackToCart()'><b>AddBackpackToCart</b><br>Test class: ProductDetails</td>
+<td></td>
+<td>2</td>
+<td>ProductDetails@4a22f9e2</td></tr>
+<tr>
+<td title='Add2Cart.CartsPage()'><b>CartsPage</b><br>Test class: Add2Cart</td>
+<td></td>
+<td>2</td>
+<td>Add2Cart@49d904ec</td></tr>
+<tr>
+<td title='ProductDetails.PageElementsForBackpack()'><b>PageElementsForBackpack</b><br>Test class: ProductDetails</td>
+<td></td>
+<td>2</td>
+<td>ProductDetails@4a22f9e2</td></tr>
+<tr>
+<td title='RemoveItemsIntegration.InventoryPageRemoveItem()'><b>InventoryPageRemoveItem</b><br>Test class: RemoveItemsIntegration</td>
+<td></td>
+<td>2</td>
+<td>RemoveItemsIntegration@48e4374</td></tr>
+</table><p>
+</body>
+</html>

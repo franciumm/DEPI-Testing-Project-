@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="DEPI Gradutaion Project">
+    <test name="UserStories Automation Testing">
+        <classes>
+            <class name="login"/>
+            <class name="Sort"/>
+            <class name="Add2Cart"/>
+            <class name="RemoveItemsIntegration"/>
+            <class name="logout"/>
+            <class name="E2E"/>
+            <class name="ProductDetails"/>
+
+        </classes>
+    </test>
+</suite>
