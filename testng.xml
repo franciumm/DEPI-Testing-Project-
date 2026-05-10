@@ -10,6 +10,8 @@
             <class name="logout"/>
             <class name="E2E"/>
             <class name="ProductDetails"/>
+            <class name="CheckoutOverview"/>
+            <class name="CustomerInfo" />
 
         </classes>
     </test>

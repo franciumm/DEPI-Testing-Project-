@@ -1,225 +1,935 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="33" passed="33" failed="0" skipped="0">
+<testng-results ignored="0" total="52" passed="41" failed="11" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-05-08T19:23:18 EEST" name="DEPI Gradutaion Project" finished-at="2026-05-08T19:26:02 EEST" duration-ms="164338">
+  <suite started-at="2026-05-10T19:13:12 EEST" name="DEPI Gradutaion Project" finished-at="2026-05-10T19:17:12 EEST" duration-ms="240526">
     <groups>
     </groups>
-    <test started-at="2026-05-08T19:23:18 EEST" name="UserStories Automation Testing" finished-at="2026-05-08T19:26:02 EEST" duration-ms="164338">
+    <test started-at="2026-05-10T19:13:12 EEST" name="UserStories Automation Testing" finished-at="2026-05-10T19:17:12 EEST" duration-ms="240526">
       <class name="Add2Cart">
-        <test-method is-config="true" signature="globalSetup()[pri:0, instance:Add2Cart@49d904ec]" started-at="2026-05-08T19:23:42 EEST" name="globalSetup" finished-at="2026-05-08T19:23:43 EEST" duration-ms="930" status="PASS">
+        <test-method is-config="true" signature="globalSetup()[pri:0, instance:Add2Cart@e056f20]" started-at="2026-05-10T19:14:00 EEST" name="globalSetup" finished-at="2026-05-10T19:14:00 EEST" duration-ms="412" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- globalSetup -->
-        <test-method is-config="true" signature="preRequisites()[pri:0, instance:Add2Cart@49d904ec]" started-at="2026-05-08T19:23:43 EEST" name="preRequisites" finished-at="2026-05-08T19:23:47 EEST" duration-ms="4330" status="PASS">
+        <test-method is-config="true" signature="preRequisites()[pri:0, instance:Add2Cart@e056f20]" started-at="2026-05-10T19:14:00 EEST" name="preRequisites" finished-at="2026-05-10T19:14:04 EEST" duration-ms="3895" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- preRequisites -->
-        <test-method signature="ProductsPageAddProduct()[pri:1, instance:Add2Cart@49d904ec]" started-at="2026-05-08T19:23:47 EEST" name="ProductsPageAddProduct" finished-at="2026-05-08T19:23:49 EEST" duration-ms="2063" status="PASS">
+        <test-method signature="ProductsPageAddProduct()[pri:1, instance:Add2Cart@e056f20]" started-at="2026-05-10T19:14:04 EEST" name="ProductsPageAddProduct" finished-at="2026-05-10T19:14:06 EEST" duration-ms="2054" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductsPageAddProduct -->
-        <test-method signature="ProductDetails()[pri:2, instance:Add2Cart@49d904ec]" started-at="2026-05-08T19:23:49 EEST" name="ProductDetails" finished-at="2026-05-08T19:23:51 EEST" duration-ms="2051" status="PASS">
+        <test-method signature="ProductDetails()[pri:2, instance:Add2Cart@e056f20]" started-at="2026-05-10T19:14:06 EEST" name="ProductDetails" finished-at="2026-05-10T19:14:08 EEST" duration-ms="2052" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductDetails -->
-        <test-method signature="DetailsPageAddProduct()[pri:3, instance:Add2Cart@49d904ec]" started-at="2026-05-08T19:23:51 EEST" name="DetailsPageAddProduct" finished-at="2026-05-08T19:23:53 EEST" duration-ms="2066" status="PASS">
+        <test-method signature="DetailsPageAddProduct()[pri:3, instance:Add2Cart@e056f20]" started-at="2026-05-10T19:14:08 EEST" name="DetailsPageAddProduct" finished-at="2026-05-10T19:14:10 EEST" duration-ms="2061" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DetailsPageAddProduct -->
-        <test-method signature="CartsPage()[pri:4, instance:Add2Cart@49d904ec]" started-at="2026-05-08T19:23:53 EEST" name="CartsPage" finished-at="2026-05-08T19:23:55 EEST" duration-ms="2033" status="PASS">
+        <test-method signature="CartsPage()[pri:4, instance:Add2Cart@e056f20]" started-at="2026-05-10T19:14:10 EEST" name="CartsPage" finished-at="2026-05-10T19:14:12 EEST" duration-ms="2038" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CartsPage -->
-        <test-method signature="ProductsPageAddProducts()[pri:5, instance:Add2Cart@49d904ec]" started-at="2026-05-08T19:23:55 EEST" name="ProductsPageAddProducts" finished-at="2026-05-08T19:24:00 EEST" duration-ms="4175" status="PASS">
+        <test-method signature="ProductsPageAddProducts()[pri:5, instance:Add2Cart@e056f20]" started-at="2026-05-10T19:14:12 EEST" name="ProductsPageAddProducts" finished-at="2026-05-10T19:14:16 EEST" duration-ms="4153" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductsPageAddProducts -->
-        <test-method signature="AddProduct()[pri:8, instance:Add2Cart@49d904ec]" started-at="2026-05-08T19:24:00 EEST" name="AddProduct" finished-at="2026-05-08T19:24:04 EEST" duration-ms="4122" status="PASS">
+        <test-method signature="AddProduct()[pri:8, instance:Add2Cart@e056f20]" started-at="2026-05-10T19:14:16 EEST" name="AddProduct" finished-at="2026-05-10T19:14:20 EEST" duration-ms="4104" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AddProduct -->
-        <test-method signature="ProductsPageAdd2Product()[pri:10, instance:Add2Cart@49d904ec]" started-at="2026-05-08T19:24:04 EEST" name="ProductsPageAdd2Product" finished-at="2026-05-08T19:24:10 EEST" duration-ms="6173" status="PASS">
+        <test-method signature="ProductsPageAdd2Product()[pri:10, instance:Add2Cart@e056f20]" started-at="2026-05-10T19:14:20 EEST" name="ProductsPageAdd2Product" finished-at="2026-05-10T19:14:27 EEST" duration-ms="6185" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductsPageAdd2Product -->
-        <test-method signature="CartsPageandCheck()[pri:11, instance:Add2Cart@49d904ec]" started-at="2026-05-08T19:24:10 EEST" name="CartsPageandCheck" finished-at="2026-05-08T19:24:12 EEST" duration-ms="2060" status="PASS">
+        <test-method signature="CartsPageandCheck()[pri:11, instance:Add2Cart@e056f20]" started-at="2026-05-10T19:14:27 EEST" name="CartsPageandCheck" finished-at="2026-05-10T19:14:29 EEST" duration-ms="2057" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CartsPageandCheck -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:Add2Cart@49d904ec]" started-at="2026-05-08T19:24:12 EEST" name="logout" finished-at="2026-05-08T19:24:17 EEST" duration-ms="5182" status="PASS">
+        <test-method is-config="true" signature="logout()[pri:0, instance:Add2Cart@e056f20]" started-at="2026-05-10T19:14:29 EEST" name="logout" finished-at="2026-05-10T19:14:36 EEST" duration-ms="7335" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->
       </class> <!-- Add2Cart -->
       <class name="logout">
-        <test-method is-config="true" signature="globalSetup()[pri:0, instance:logout@3d680b5a]" started-at="2026-05-08T19:24:53 EEST" name="globalSetup" finished-at="2026-05-08T19:24:54 EEST" duration-ms="716" status="PASS">
+        <test-method is-config="true" signature="globalSetup()[pri:0, instance:logout@19bb07ed]" started-at="2026-05-10T19:15:14 EEST" name="globalSetup" finished-at="2026-05-10T19:15:15 EEST" duration-ms="396" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- globalSetup -->
-        <test-method signature="verifyLogoutRedirectsToLogin()[pri:1, instance:logout@3d680b5a]" started-at="2026-05-08T19:24:54 EEST" name="verifyLogoutRedirectsToLogin" finished-at="2026-05-08T19:25:00 EEST" duration-ms="6530" status="PASS">
+        <test-method signature="verifyLogoutRedirectsToLogin()[pri:1, instance:logout@19bb07ed]" started-at="2026-05-10T19:15:15 EEST" name="verifyLogoutRedirectsToLogin" finished-at="2026-05-10T19:15:21 EEST" duration-ms="6199" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLogoutRedirectsToLogin -->
-        <test-method signature="verifyLogoutClearsCredentials()[pri:2, instance:logout@3d680b5a]" started-at="2026-05-08T19:25:00 EEST" name="verifyLogoutClearsCredentials" finished-at="2026-05-08T19:25:06 EEST" duration-ms="5244" status="PASS">
+        <test-method signature="verifyLogoutClearsCredentials()[pri:2, instance:logout@19bb07ed]" started-at="2026-05-10T19:15:21 EEST" name="verifyLogoutClearsCredentials" finished-at="2026-05-10T19:15:26 EEST" duration-ms="5238" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLogoutClearsCredentials -->
-        <test-method signature="verifyBackNavigationBlockedAfterLogout()[pri:3, instance:logout@3d680b5a]" started-at="2026-05-08T19:25:06 EEST" name="verifyBackNavigationBlockedAfterLogout" finished-at="2026-05-08T19:25:12 EEST" duration-ms="6234" status="PASS">
+        <test-method signature="verifyBackNavigationBlockedAfterLogout()[pri:3, instance:logout@19bb07ed]" started-at="2026-05-10T19:15:26 EEST" name="verifyBackNavigationBlockedAfterLogout" finished-at="2026-05-10T19:15:32 EEST" duration-ms="6235" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyBackNavigationBlockedAfterLogout -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:logout@3d680b5a]" started-at="2026-05-08T19:25:12 EEST" name="logout" finished-at="2026-05-08T19:25:12 EEST" duration-ms="84" status="PASS">
+        <test-method is-config="true" signature="logout()[pri:0, instance:logout@19bb07ed]" started-at="2026-05-10T19:15:32 EEST" name="logout" finished-at="2026-05-10T19:15:32 EEST" duration-ms="92" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->
       </class> <!-- logout -->
-      <class name="RemoveItemsIntegration">
-        <test-method is-config="true" signature="globalSetup()[pri:0, instance:RemoveItemsIntegration@48e4374]" started-at="2026-05-08T19:24:17 EEST" name="globalSetup" finished-at="2026-05-08T19:24:17 EEST" duration-ms="367" status="PASS">
+      <class name="CheckoutOverview">
+        <test-method is-config="true" signature="globalSetup()[pri:0, instance:CheckoutOverview@2667f029]" started-at="2026-05-10T19:16:19 EEST" name="globalSetup" finished-at="2026-05-10T19:16:20 EEST" duration-ms="1144" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- globalSetup -->
-        <test-method is-config="true" signature="preRequisites()[pri:0, instance:RemoveItemsIntegration@48e4374]" started-at="2026-05-08T19:24:17 EEST" name="preRequisites" finished-at="2026-05-08T19:24:22 EEST" duration-ms="4883" status="PASS">
+        <test-method is-config="true" signature="preRequisites()[pri:0, instance:CheckoutOverview@2667f029]" started-at="2026-05-10T19:16:20 EEST" name="preRequisites" finished-at="2026-05-10T19:16:27 EEST" duration-ms="6193" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- preRequisites -->
-        <test-method signature="ProductsPageAddAllItems()[pri:1, instance:RemoveItemsIntegration@48e4374]" started-at="2026-05-08T19:24:22 EEST" name="ProductsPageAddAllItems" finished-at="2026-05-08T19:24:30 EEST" duration-ms="7310" status="PASS">
+        <test-method signature="testOrderSummaryItems()[pri:1, instance:CheckoutOverview@2667f029]" started-at="2026-05-10T19:16:27 EEST" name="testOrderSummaryItems" finished-at="2026-05-10T19:16:27 EEST" duration-ms="52" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOrderSummaryItems -->
+        <test-method signature="testPaymentInfoDisplayed()[pri:2, instance:CheckoutOverview@2667f029]" started-at="2026-05-10T19:16:27 EEST" name="testPaymentInfoDisplayed" finished-at="2026-05-10T19:16:27 EEST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPaymentInfoDisplayed -->
+        <test-method signature="testShippingInfoDisplayed()[pri:3, instance:CheckoutOverview@2667f029]" started-at="2026-05-10T19:16:27 EEST" name="testShippingInfoDisplayed" finished-at="2026-05-10T19:16:27 EEST" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testShippingInfoDisplayed -->
+        <test-method signature="testPriceTotalsCorrect()[pri:4, instance:CheckoutOverview@2667f029]" started-at="2026-05-10T19:16:27 EEST" name="testPriceTotalsCorrect" finished-at="2026-05-10T19:16:27 EEST" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPriceTotalsCorrect -->
+        <test-method signature="testCancelButtonPreservesCart()[pri:5, instance:CheckoutOverview@2667f029]" started-at="2026-05-10T19:16:27 EEST" name="testCancelButtonPreservesCart" finished-at="2026-05-10T19:16:28 EEST" duration-ms="1120" status="FAIL">
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[element not interactable
+  (Session info: chrome=147.0.7727.139)
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '26.4.1', java.version: '25.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b52a2e020c8fe1b3560eff481f9cb521, sendKeysToElement {value=[Ljava.lang.CharSequence;@6aa7e176, id=f.4E9A31973A1448E86A860BD8BA34DACC.d.E3CA4EFC0549EE24DD20F575EEE63D24.e.110}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.139, chrome: {chromedriverVersion: 147.0.7727.117 (474cc805edd..., userDataDir: /var/folders/n8/k_kg3w9x0p7...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51263}, goog:processID: 4037, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:51263/devtoo..., se:cdpVersion: 147.0.7727.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on mac (b52a2e020c8fe1b3560eff481f9cb521)] -> id: first-name]
+Session ID: b52a2e020c8fe1b3560eff481f9cb521]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=147.0.7727.139)
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '26.4.1', java.version: '25.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b52a2e020c8fe1b3560eff481f9cb521, sendKeysToElement {value=[Ljava.lang.CharSequence;@6aa7e176, id=f.4E9A31973A1448E86A860BD8BA34DACC.d.E3CA4EFC0549EE24DD20F575EEE63D24.e.110}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.139, chrome: {chromedriverVersion: 147.0.7727.117 (474cc805edd..., userDataDir: /var/folders/n8/k_kg3w9x0p7...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51263}, goog:processID: 4037, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:51263/devtoo..., se:cdpVersion: 147.0.7727.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on mac (b52a2e020c8fe1b3560eff481f9cb521)] -> id: first-name]
+Session ID: b52a2e020c8fe1b3560eff481f9cb521
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)
+at CheckoutOverview.testCancelButtonPreservesCart(CheckoutOverview.java:83)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCancelButtonPreservesCart -->
+        <test-method signature="testFinishButtonEnabled()[pri:6, instance:CheckoutOverview@2667f029]" started-at="2026-05-10T19:16:28 EEST" name="testFinishButtonEnabled" finished-at="2026-05-10T19:16:28 EEST" duration-ms="5" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#finish"}
+  (Session info: chrome=147.0.7727.139)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '26.4.1', java.version: '25.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b52a2e020c8fe1b3560eff481f9cb521, findElement {value=finish, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.139, chrome: {chromedriverVersion: 147.0.7727.117 (474cc805edd..., userDataDir: /var/folders/n8/k_kg3w9x0p7...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51263}, goog:processID: 4037, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:51263/devtoo..., se:cdpVersion: 147.0.7727.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b52a2e020c8fe1b3560eff481f9cb521]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#finish"}
+  (Session info: chrome=147.0.7727.139)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '26.4.1', java.version: '25.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b52a2e020c8fe1b3560eff481f9cb521, findElement {value=finish, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.139, chrome: {chromedriverVersion: 147.0.7727.117 (474cc805edd..., userDataDir: /var/folders/n8/k_kg3w9x0p7...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51263}, goog:processID: 4037, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:51263/devtoo..., se:cdpVersion: 147.0.7727.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b52a2e020c8fe1b3560eff481f9cb521
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+at CheckoutOverview.testFinishButtonEnabled(CheckoutOverview.java:92)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFinishButtonEnabled -->
+        <test-method signature="testFinishRedirectsToComplete()[pri:7, instance:CheckoutOverview@2667f029]" started-at="2026-05-10T19:16:28 EEST" name="testFinishRedirectsToComplete" finished-at="2026-05-10T19:16:28 EEST" duration-ms="4" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#finish"}
+  (Session info: chrome=147.0.7727.139)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '26.4.1', java.version: '25.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b52a2e020c8fe1b3560eff481f9cb521, findElement {value=finish, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.139, chrome: {chromedriverVersion: 147.0.7727.117 (474cc805edd..., userDataDir: /var/folders/n8/k_kg3w9x0p7...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51263}, goog:processID: 4037, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:51263/devtoo..., se:cdpVersion: 147.0.7727.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b52a2e020c8fe1b3560eff481f9cb521]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#finish"}
+  (Session info: chrome=147.0.7727.139)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '26.4.1', java.version: '25.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b52a2e020c8fe1b3560eff481f9cb521, findElement {value=finish, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.139, chrome: {chromedriverVersion: 147.0.7727.117 (474cc805edd..., userDataDir: /var/folders/n8/k_kg3w9x0p7...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51263}, goog:processID: 4037, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:51263/devtoo..., se:cdpVersion: 147.0.7727.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b52a2e020c8fe1b3560eff481f9cb521
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+at CheckoutOverview.testFinishRedirectsToComplete(CheckoutOverview.java:98)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFinishRedirectsToComplete -->
+        <test-method signature="testCompletionMessageDisplayed()[pri:8, instance:CheckoutOverview@2667f029]" started-at="2026-05-10T19:16:28 EEST" name="testCompletionMessageDisplayed" finished-at="2026-05-10T19:16:28 EEST" duration-ms="5" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":".complete\-header"}
+  (Session info: chrome=147.0.7727.139)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '26.4.1', java.version: '25.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b52a2e020c8fe1b3560eff481f9cb521, findElement {value=complete-header, using=class name}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.139, chrome: {chromedriverVersion: 147.0.7727.117 (474cc805edd..., userDataDir: /var/folders/n8/k_kg3w9x0p7...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51263}, goog:processID: 4037, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:51263/devtoo..., se:cdpVersion: 147.0.7727.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b52a2e020c8fe1b3560eff481f9cb521]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".complete\-header"}
+  (Session info: chrome=147.0.7727.139)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '26.4.1', java.version: '25.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b52a2e020c8fe1b3560eff481f9cb521, findElement {value=complete-header, using=class name}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.139, chrome: {chromedriverVersion: 147.0.7727.117 (474cc805edd..., userDataDir: /var/folders/n8/k_kg3w9x0p7...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51263}, goog:processID: 4037, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:51263/devtoo..., se:cdpVersion: 147.0.7727.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b52a2e020c8fe1b3560eff481f9cb521
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+at CheckoutOverview.testCompletionMessageDisplayed(CheckoutOverview.java:106)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCompletionMessageDisplayed -->
+        <test-method signature="testBackHomeClearsCart()[pri:9, instance:CheckoutOverview@2667f029]" started-at="2026-05-10T19:16:28 EEST" name="testBackHomeClearsCart" finished-at="2026-05-10T19:16:28 EEST" duration-ms="5" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#back\-to\-products"}
+  (Session info: chrome=147.0.7727.139)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '26.4.1', java.version: '25.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b52a2e020c8fe1b3560eff481f9cb521, findElement {value=back-to-products, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.139, chrome: {chromedriverVersion: 147.0.7727.117 (474cc805edd..., userDataDir: /var/folders/n8/k_kg3w9x0p7...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51263}, goog:processID: 4037, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:51263/devtoo..., se:cdpVersion: 147.0.7727.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b52a2e020c8fe1b3560eff481f9cb521]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#back\-to\-products"}
+  (Session info: chrome=147.0.7727.139)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '26.4.1', java.version: '25.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b52a2e020c8fe1b3560eff481f9cb521, findElement {value=back-to-products, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.139, chrome: {chromedriverVersion: 147.0.7727.117 (474cc805edd..., userDataDir: /var/folders/n8/k_kg3w9x0p7...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51263}, goog:processID: 4037, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:51263/devtoo..., se:cdpVersion: 147.0.7727.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b52a2e020c8fe1b3560eff481f9cb521
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+at CheckoutOverview.testBackHomeClearsCart(CheckoutOverview.java:113)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBackHomeClearsCart -->
+        <test-method signature="testPerfGlitchUserCompletion()[pri:10, instance:CheckoutOverview@2667f029]" started-at="2026-05-10T19:16:28 EEST" name="testPerfGlitchUserCompletion" finished-at="2026-05-10T19:16:45 EEST" duration-ms="17401" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPerfGlitchUserCompletion -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:CheckoutOverview@2667f029]" started-at="2026-05-10T19:16:45 EEST" name="logout" finished-at="2026-05-10T19:16:55 EEST" duration-ms="9959" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- CheckoutOverview -->
+      <class name="RemoveItemsIntegration">
+        <test-method is-config="true" signature="globalSetup()[pri:0, instance:RemoveItemsIntegration@4b0b0854]" started-at="2026-05-10T19:14:36 EEST" name="globalSetup" finished-at="2026-05-10T19:14:37 EEST" duration-ms="674" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- globalSetup -->
+        <test-method is-config="true" signature="preRequisites()[pri:0, instance:RemoveItemsIntegration@4b0b0854]" started-at="2026-05-10T19:14:37 EEST" name="preRequisites" finished-at="2026-05-10T19:14:41 EEST" duration-ms="3935" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preRequisites -->
+        <test-method signature="ProductsPageAddAllItems()[pri:1, instance:RemoveItemsIntegration@4b0b0854]" started-at="2026-05-10T19:14:41 EEST" name="ProductsPageAddAllItems" finished-at="2026-05-10T19:14:48 EEST" duration-ms="7297" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductsPageAddAllItems -->
-        <test-method signature="InventoryPageRemoveItem()[pri:2, instance:RemoveItemsIntegration@48e4374]" started-at="2026-05-08T19:24:30 EEST" name="InventoryPageRemoveItem" finished-at="2026-05-08T19:24:32 EEST" duration-ms="2049" status="PASS">
+        <test-method signature="InventoryPageRemoveItem()[pri:2, instance:RemoveItemsIntegration@4b0b0854]" started-at="2026-05-10T19:14:48 EEST" name="InventoryPageRemoveItem" finished-at="2026-05-10T19:14:50 EEST" duration-ms="2047" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- InventoryPageRemoveItem -->
-        <test-method signature="DetailsPageRemoveItem()[pri:3, instance:RemoveItemsIntegration@48e4374]" started-at="2026-05-08T19:24:32 EEST" name="DetailsPageRemoveItem" finished-at="2026-05-08T19:24:36 EEST" duration-ms="4118" status="PASS">
+        <test-method signature="DetailsPageRemoveItem()[pri:3, instance:RemoveItemsIntegration@4b0b0854]" started-at="2026-05-10T19:14:50 EEST" name="DetailsPageRemoveItem" finished-at="2026-05-10T19:14:54 EEST" duration-ms="4110" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DetailsPageRemoveItem -->
-        <test-method signature="CartsPageNavigation()[pri:4, instance:RemoveItemsIntegration@48e4374]" started-at="2026-05-08T19:24:36 EEST" name="CartsPageNavigation" finished-at="2026-05-08T19:24:38 EEST" duration-ms="2048" status="PASS">
+        <test-method signature="CartsPageNavigation()[pri:4, instance:RemoveItemsIntegration@4b0b0854]" started-at="2026-05-10T19:14:54 EEST" name="CartsPageNavigation" finished-at="2026-05-10T19:14:56 EEST" duration-ms="2050" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CartsPageNavigation -->
-        <test-method signature="CartsPageRemoveItem()[pri:5, instance:RemoveItemsIntegration@48e4374]" started-at="2026-05-08T19:24:38 EEST" name="CartsPageRemoveItem" finished-at="2026-05-08T19:24:40 EEST" duration-ms="2066" status="PASS">
+        <test-method signature="CartsPageRemoveItem()[pri:5, instance:RemoveItemsIntegration@4b0b0854]" started-at="2026-05-10T19:14:56 EEST" name="CartsPageRemoveItem" finished-at="2026-05-10T19:14:58 EEST" duration-ms="2062" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CartsPageRemoveItem -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:RemoveItemsIntegration@48e4374]" started-at="2026-05-08T19:24:40 EEST" name="logout" finished-at="2026-05-08T19:24:53 EEST" duration-ms="13221" status="PASS">
+        <test-method is-config="true" signature="logout()[pri:0, instance:RemoveItemsIntegration@4b0b0854]" started-at="2026-05-10T19:14:58 EEST" name="logout" finished-at="2026-05-10T19:15:14 EEST" duration-ms="16051" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->
       </class> <!-- RemoveItemsIntegration -->
       <class name="ProductDetails">
-        <test-method is-config="true" signature="globalSetup()[pri:0, instance:ProductDetails@4a22f9e2]" started-at="2026-05-08T19:25:27 EEST" name="globalSetup" finished-at="2026-05-08T19:25:28 EEST" duration-ms="725" status="PASS">
+        <test-method is-config="true" signature="globalSetup()[pri:0, instance:ProductDetails@353d0772]" started-at="2026-05-10T19:15:43 EEST" name="globalSetup" finished-at="2026-05-10T19:15:44 EEST" duration-ms="1268" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- globalSetup -->
-        <test-method is-config="true" signature="preRequisites()[pri:0, instance:ProductDetails@4a22f9e2]" started-at="2026-05-08T19:25:28 EEST" name="preRequisites" finished-at="2026-05-08T19:25:32 EEST" duration-ms="4334" status="PASS">
+        <test-method is-config="true" signature="preRequisites()[pri:0, instance:ProductDetails@353d0772]" started-at="2026-05-10T19:15:44 EEST" name="preRequisites" finished-at="2026-05-10T19:15:50 EEST" duration-ms="6268" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- preRequisites -->
-        <test-method signature="PageElementsForBackpack()[pri:1, instance:ProductDetails@4a22f9e2]" started-at="2026-05-08T19:25:32 EEST" name="PageElementsForBackpack" finished-at="2026-05-08T19:25:34 EEST" duration-ms="2121" status="PASS">
+        <test-method signature="PageElementsForBackpack()[pri:1, instance:ProductDetails@353d0772]" started-at="2026-05-10T19:15:50 EEST" name="PageElementsForBackpack" finished-at="2026-05-10T19:15:53 EEST" duration-ms="2142" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PageElementsForBackpack -->
-        <test-method signature="AddBackpackToCart()[pri:2, instance:ProductDetails@4a22f9e2]" started-at="2026-05-08T19:25:34 EEST" name="AddBackpackToCart" finished-at="2026-05-08T19:25:36 EEST" duration-ms="2054" status="PASS">
+        <test-method signature="AddBackpackToCart()[pri:2, instance:ProductDetails@353d0772]" started-at="2026-05-10T19:15:53 EEST" name="AddBackpackToCart" finished-at="2026-05-10T19:15:55 EEST" duration-ms="2052" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AddBackpackToCart -->
-        <test-method signature="BackToProductsAndNavigateToBikeLight()[pri:3, instance:ProductDetails@4a22f9e2]" started-at="2026-05-08T19:25:36 EEST" name="BackToProductsAndNavigateToBikeLight" finished-at="2026-05-08T19:25:39 EEST" duration-ms="3104" status="PASS">
+        <test-method signature="BackToProductsAndNavigateToBikeLight()[pri:3, instance:ProductDetails@353d0772]" started-at="2026-05-10T19:15:55 EEST" name="BackToProductsAndNavigateToBikeLight" finished-at="2026-05-10T19:15:58 EEST" duration-ms="3106" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BackToProductsAndNavigateToBikeLight -->
-        <test-method signature="AddBikeLightAndVerifyBadge()[pri:4, instance:ProductDetails@4a22f9e2]" started-at="2026-05-08T19:25:39 EEST" name="AddBikeLightAndVerifyBadge" finished-at="2026-05-08T19:25:41 EEST" duration-ms="2051" status="PASS">
+        <test-method signature="AddBikeLightAndVerifyBadge()[pri:4, instance:ProductDetails@353d0772]" started-at="2026-05-10T19:15:58 EEST" name="AddBikeLightAndVerifyBadge" finished-at="2026-05-10T19:16:00 EEST" duration-ms="2047" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AddBikeLightAndVerifyBadge -->
-        <test-method signature="CartContainsBothItems()[pri:5, instance:ProductDetails@4a22f9e2]" started-at="2026-05-08T19:25:41 EEST" name="CartContainsBothItems" finished-at="2026-05-08T19:25:44 EEST" duration-ms="3099" status="PASS">
+        <test-method signature="CartContainsBothItems()[pri:5, instance:ProductDetails@353d0772]" started-at="2026-05-10T19:16:00 EEST" name="CartContainsBothItems" finished-at="2026-05-10T19:16:03 EEST" duration-ms="3101" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CartContainsBothItems -->
-        <test-method signature="RemoveBackpackAndVerifyBadge()[pri:6, instance:ProductDetails@4a22f9e2]" started-at="2026-05-08T19:25:44 EEST" name="RemoveBackpackAndVerifyBadge" finished-at="2026-05-08T19:25:47 EEST" duration-ms="3125" status="PASS">
+        <test-method signature="RemoveBackpackAndVerifyBadge()[pri:6, instance:ProductDetails@353d0772]" started-at="2026-05-10T19:16:03 EEST" name="RemoveBackpackAndVerifyBadge" finished-at="2026-05-10T19:16:06 EEST" duration-ms="3098" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- RemoveBackpackAndVerifyBadge -->
-        <test-method signature="NavigateToProductViaImage()[pri:7, instance:ProductDetails@4a22f9e2]" started-at="2026-05-08T19:25:47 EEST" name="NavigateToProductViaImage" finished-at="2026-05-08T19:25:51 EEST" duration-ms="3103" status="PASS">
+        <test-method signature="NavigateToProductViaImage()[pri:7, instance:ProductDetails@353d0772]" started-at="2026-05-10T19:16:06 EEST" name="NavigateToProductViaImage" finished-at="2026-05-10T19:16:09 EEST" duration-ms="3105" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- NavigateToProductViaImage -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:ProductDetails@4a22f9e2]" started-at="2026-05-08T19:25:51 EEST" name="logout" finished-at="2026-05-08T19:26:02 EEST" duration-ms="11281" status="PASS">
+        <test-method is-config="true" signature="logout()[pri:0, instance:ProductDetails@353d0772]" started-at="2026-05-10T19:16:09 EEST" name="logout" finished-at="2026-05-10T19:16:19 EEST" duration-ms="10197" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->
       </class> <!-- ProductDetails -->
       <class name="E2E">
-        <test-method is-config="true" signature="globalSetup()[pri:0, instance:E2E@4b5d6a01]" started-at="2026-05-08T19:25:12 EEST" name="globalSetup" finished-at="2026-05-08T19:25:13 EEST" duration-ms="867" status="PASS">
+        <test-method is-config="true" signature="globalSetup()[pri:0, instance:E2E@10e41621]" started-at="2026-05-10T19:15:32 EEST" name="globalSetup" finished-at="2026-05-10T19:15:33 EEST" duration-ms="1007" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- globalSetup -->
-        <test-method signature="ENDTOENDTEST()[pri:0, instance:E2E@4b5d6a01]" started-at="2026-05-08T19:25:13 EEST" name="ENDTOENDTEST" finished-at="2026-05-08T19:25:25 EEST" duration-ms="11840" status="PASS">
+        <test-method signature="ENDTOENDTEST()[pri:0, instance:E2E@10e41621]" started-at="2026-05-10T19:15:33 EEST" name="ENDTOENDTEST" finished-at="2026-05-10T19:15:43 EEST" duration-ms="9414" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ENDTOENDTEST -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:E2E@4b5d6a01]" started-at="2026-05-08T19:25:25 EEST" name="logout" finished-at="2026-05-08T19:25:27 EEST" duration-ms="2200" status="PASS">
+        <test-method is-config="true" signature="logout()[pri:0, instance:E2E@10e41621]" started-at="2026-05-10T19:15:43 EEST" name="logout" finished-at="2026-05-10T19:15:43 EEST" duration-ms="85" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->
       </class> <!-- E2E -->
       <class name="Sort">
-        <test-method is-config="true" signature="globalSetup()[pri:0, instance:Sort@3ba9ad43]" started-at="2026-05-08T19:23:27 EEST" name="globalSetup" finished-at="2026-05-08T19:23:28 EEST" duration-ms="732" status="PASS">
+        <test-method is-config="true" signature="globalSetup()[pri:0, instance:Sort@34b7ac2f]" started-at="2026-05-10T19:13:24 EEST" name="globalSetup" finished-at="2026-05-10T19:13:25 EEST" duration-ms="937" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- globalSetup -->
-        <test-method is-config="true" signature="preRequisites()[pri:0, instance:Sort@3ba9ad43]" started-at="2026-05-08T19:23:28 EEST" name="preRequisites" finished-at="2026-05-08T19:23:32 EEST" duration-ms="4368" status="PASS">
+        <test-method is-config="true" signature="preRequisites()[pri:0, instance:Sort@34b7ac2f]" started-at="2026-05-10T19:13:25 EEST" name="preRequisites" finished-at="2026-05-10T19:13:29 EEST" duration-ms="4004" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- preRequisites -->
-        <test-method signature="SORT_product_Name_ZtoA()[pri:1, instance:Sort@3ba9ad43]" started-at="2026-05-08T19:23:32 EEST" name="SORT_product_Name_ZtoA" finished-at="2026-05-08T19:23:33 EEST" duration-ms="1106" status="PASS">
+        <test-method signature="SORT_product_Name_ZtoA()[pri:1, instance:Sort@34b7ac2f]" started-at="2026-05-10T19:13:29 EEST" name="SORT_product_Name_ZtoA" finished-at="2026-05-10T19:13:30 EEST" duration-ms="1100" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SORT_product_Name_ZtoA -->
-        <test-method signature="SORT_product_Price_HighToLow()[pri:2, instance:Sort@3ba9ad43]" started-at="2026-05-08T19:23:33 EEST" name="SORT_product_Price_HighToLow" finished-at="2026-05-08T19:23:34 EEST" duration-ms="1080" status="PASS">
+        <test-method signature="SORT_product_Price_HighToLow()[pri:2, instance:Sort@34b7ac2f]" started-at="2026-05-10T19:13:30 EEST" name="SORT_product_Price_HighToLow" finished-at="2026-05-10T19:13:31 EEST" duration-ms="1085" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SORT_product_Price_HighToLow -->
-        <test-method signature="SORT_product_Price_LowToHigh()[pri:3, instance:Sort@3ba9ad43]" started-at="2026-05-08T19:23:34 EEST" name="SORT_product_Price_LowToHigh" finished-at="2026-05-08T19:23:35 EEST" duration-ms="1078" status="PASS">
+        <test-method signature="SORT_product_Price_LowToHigh()[pri:3, instance:Sort@34b7ac2f]" started-at="2026-05-10T19:13:31 EEST" name="SORT_product_Price_LowToHigh" finished-at="2026-05-10T19:13:32 EEST" duration-ms="1076" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SORT_product_Price_LowToHigh -->
-        <test-method signature="verifyProductDetailsPageOpens()[pri:4, instance:Sort@3ba9ad43]" started-at="2026-05-08T19:23:35 EEST" name="verifyProductDetailsPageOpens" finished-at="2026-05-08T19:23:39 EEST" duration-ms="3133" status="PASS">
+        <test-method signature="verifyProductDetailsPageOpens()[pri:4, instance:Sort@34b7ac2f]" started-at="2026-05-10T19:13:32 EEST" name="verifyProductDetailsPageOpens" finished-at="2026-05-10T19:13:35 EEST" duration-ms="3186" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyProductDetailsPageOpens -->
-        <test-method signature="verifyAddFirstSortedProductToCart()[pri:5, instance:Sort@3ba9ad43]" started-at="2026-05-08T19:23:39 EEST" name="verifyAddFirstSortedProductToCart" finished-at="2026-05-08T19:23:41 EEST" duration-ms="2132" status="PASS">
+        <test-method signature="verifyAddFirstSortedProductToCart()[pri:5, instance:Sort@34b7ac2f]" started-at="2026-05-10T19:13:35 EEST" name="verifyAddFirstSortedProductToCart" finished-at="2026-05-10T19:13:37 EEST" duration-ms="2149" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAddFirstSortedProductToCart -->
-        <test-method signature="verifyCorrectItemAddedFromSortedList()[pri:6, instance:Sort@3ba9ad43]" started-at="2026-05-08T19:23:41 EEST" name="verifyCorrectItemAddedFromSortedList" finished-at="2026-05-08T19:23:42 EEST" duration-ms="1053" status="PASS">
+        <test-method signature="verifyCorrectItemAddedFromSortedList()[pri:6, instance:Sort@34b7ac2f]" started-at="2026-05-10T19:13:37 EEST" name="verifyCorrectItemAddedFromSortedList" finished-at="2026-05-10T19:13:39 EEST" duration-ms="1050" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyCorrectItemAddedFromSortedList -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:Sort@3ba9ad43]" started-at="2026-05-08T19:23:42 EEST" name="logout" finished-at="2026-05-08T19:23:42 EEST" duration-ms="98" status="PASS">
+        <test-method signature="error_User_SortingBug()[pri:7, instance:Sort@34b7ac2f]" started-at="2026-05-10T19:13:39 EEST" name="error_User_SortingBug" finished-at="2026-05-10T19:13:44 EEST" duration-ms="5282" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Bug Detected : Application crashed and threw a JavaScript alert! Alert text: [Sorting is broken! This error has been reported to Backtrace.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Bug Detected : Application crashed and threw a JavaScript alert! Alert text: [Sorting is broken! This error has been reported to Backtrace.]
+at org.testng.Assert.fail(Assert.java:111)
+at Sort.error_User_SortingBug(Sort.java:102)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- error_User_SortingBug -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:Sort@34b7ac2f]" started-at="2026-05-10T19:13:44 EEST" name="logout" finished-at="2026-05-10T19:14:00 EEST" duration-ms="15814" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->
       </class> <!-- Sort -->
-      <class name="login">
-        <test-method is-config="true" signature="globalSetup()[pri:0, instance:login@3eb7fc54]" started-at="2026-05-08T19:23:18 EEST" name="globalSetup" finished-at="2026-05-08T19:23:18 EEST" duration-ms="933" status="PASS">
+      <class name="CustomerInfo">
+        <test-method is-config="true" signature="globalSetup()[pri:0, instance:CustomerInfo@67a20f67]" started-at="2026-05-10T19:16:55 EEST" name="globalSetup" finished-at="2026-05-10T19:16:56 EEST" duration-ms="1111" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- globalSetup -->
-        <test-method signature="valid_login()[pri:1, instance:login@3eb7fc54]" started-at="2026-05-08T19:23:18 EEST" name="valid_login" finished-at="2026-05-08T19:23:23 EEST" duration-ms="4235" status="PASS">
+        <test-method is-config="true" signature="preRequisites()[pri:0, instance:CustomerInfo@67a20f67]" started-at="2026-05-10T19:16:56 EEST" name="preRequisites" finished-at="2026-05-10T19:17:00 EEST" duration-ms="4054" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- valid_login -->
-        <test-method signature="invalid_login()[pri:2, instance:login@3eb7fc54]" started-at="2026-05-08T19:23:23 EEST" name="invalid_login" finished-at="2026-05-08T19:23:25 EEST" duration-ms="2163" status="PASS">
+        </test-method> <!-- preRequisites -->
+        <test-method signature="VerifyOpeningCheckoutPage()[pri:1, instance:CustomerInfo@67a20f67]" started-at="2026-05-10T19:17:00 EEST" name="VerifyOpeningCheckoutPage" finished-at="2026-05-10T19:17:02 EEST" duration-ms="1800" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyOpeningCheckoutPage -->
+        <test-method signature="VerifyStandardInputAccepted()[pri:2, instance:CustomerInfo@67a20f67]" started-at="2026-05-10T19:17:02 EEST" name="VerifyStandardInputAccepted" finished-at="2026-05-10T19:17:03 EEST" duration-ms="1232" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyStandardInputAccepted -->
+        <test-method signature="VerifyErrorUserCheckoutBug()[pri:3, instance:CustomerInfo@67a20f67]" started-at="2026-05-10T19:17:03 EEST" name="VerifyErrorUserCheckoutBug" finished-at="2026-05-10T19:17:06 EEST" duration-ms="2282" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Bug Detected (TC_003): 'error_user' cannot enter data into the Last Name field correctly! expected [Ali] but found []]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Bug Detected (TC_003): 'error_user' cannot enter data into the Last Name field correctly! expected [Ali] but found []
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at CustomerInfo.VerifyErrorUserCheckoutBug(CustomerInfo.java:59)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyErrorUserCheckoutBug -->
+        <test-method signature="VerifySpacesInFirstNameRejected()[pri:4, instance:CustomerInfo@67a20f67]" started-at="2026-05-10T19:17:06 EEST" name="VerifySpacesInFirstNameRejected" finished-at="2026-05-10T19:17:07 EEST" duration-ms="1295" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Bug Detected (TC_004): System accepted a name consisting only of spaces! expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Bug Detected (TC_004): System accepted a name consisting only of spaces! expected [false] but found [true]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertFalse(Assert.java:79)
+at CustomerInfo.VerifySpacesInFirstNameRejected(CustomerInfo.java:78)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifySpacesInFirstNameRejected -->
+        <test-method signature="VerifyEmptyFirstNameRejected()[pri:5, instance:CustomerInfo@67a20f67]" started-at="2026-05-10T19:17:07 EEST" name="VerifyEmptyFirstNameRejected" finished-at="2026-05-10T19:17:08 EEST" duration-ms="1180" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyEmptyFirstNameRejected -->
+        <test-method signature="VerifyFieldMaxBoundary()[pri:6, instance:CustomerInfo@67a20f67]" started-at="2026-05-10T19:17:08 EEST" name="VerifyFieldMaxBoundary" finished-at="2026-05-10T19:17:10 EEST" duration-ms="1501" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Bug Detected (TC_006): System accepted a 1000-character name without validation! expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Bug Detected (TC_006): System accepted a 1000-character name without validation! expected [false] but found [true]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertFalse(Assert.java:79)
+at CustomerInfo.VerifyFieldMaxBoundary(CustomerInfo.java:102)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyFieldMaxBoundary -->
+        <test-method signature="VerifyMinimumBoundary()[pri:7, instance:CustomerInfo@67a20f67]" started-at="2026-05-10T19:17:10 EEST" name="VerifyMinimumBoundary" finished-at="2026-05-10T19:17:11 EEST" duration-ms="1259" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyMinimumBoundary -->
+        <test-method signature="VerifyNumbersInNameRejected()[pri:8, instance:CustomerInfo@67a20f67]" started-at="2026-05-10T19:17:11 EEST" name="VerifyNumbersInNameRejected" finished-at="2026-05-10T19:17:12 EEST" duration-ms="1186" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Bug Detected : System allowed numbers inside the First Name field! expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Bug Detected : System allowed numbers inside the First Name field! expected [false] but found [true]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertFalse(Assert.java:79)
+at CustomerInfo.VerifyNumbersInNameRejected(CustomerInfo.java:125)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyNumbersInNameRejected -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:CustomerInfo@67a20f67]" started-at="2026-05-10T19:17:12 EEST" name="logout" finished-at="2026-05-10T19:17:12 EEST" duration-ms="85" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- CustomerInfo -->
+      <class name="login">
+        <test-method is-config="true" signature="globalSetup()[pri:0, instance:login@1d119efb]" started-at="2026-05-10T19:13:12 EEST" name="globalSetup" finished-at="2026-05-10T19:13:13 EEST" duration-ms="1282" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- globalSetup -->
+        <test-method signature="invalid_login()[pri:1, instance:login@1d119efb]" started-at="2026-05-10T19:13:13 EEST" name="invalid_login" finished-at="2026-05-10T19:13:16 EEST" duration-ms="3448" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalid_login -->
-        <test-method signature="Locked_login()[pri:3, instance:login@3eb7fc54]" started-at="2026-05-08T19:23:25 EEST" name="Locked_login" finished-at="2026-05-08T19:23:27 EEST" duration-ms="2127" status="PASS">
+        <test-method signature="Locked_login()[pri:2, instance:login@1d119efb]" started-at="2026-05-10T19:13:16 EEST" name="Locked_login" finished-at="2026-05-10T19:13:19 EEST" duration-ms="2163" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Bug Detected: Password field was NOT cleared after attempting to log into a locked account! expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Bug Detected: Password field was NOT cleared after attempting to log into a locked account! expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at login.Locked_login(login.java:38)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Locked_login -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:login@3eb7fc54]" started-at="2026-05-08T19:23:27 EEST" name="logout" finished-at="2026-05-08T19:23:27 EEST" duration-ms="90" status="PASS">
+        <test-method signature="valid_login()[pri:3, instance:login@1d119efb]" started-at="2026-05-10T19:13:19 EEST" name="valid_login" finished-at="2026-05-10T19:13:22 EEST" duration-ms="3130" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- valid_login -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:login@1d119efb]" started-at="2026-05-10T19:13:22 EEST" name="logout" finished-at="2026-05-10T19:13:24 EEST" duration-ms="2210" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->

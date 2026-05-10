@@ -1,7 +1,6 @@
-
-import org.testng.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
@@ -12,120 +11,117 @@ public class CustomerInfo extends Default {
         globalLogin();
     }
 
-    @Test(priority = 1)
-    public void testOpenCheckoutPage() throws InterruptedException {
-        // Add item and navigate to checkout page
-        driver.findElement(By.id("add-to-cart-sauce-labs-backpack")).click();
-        Thread.sleep(1000);
-        driver.findElement(By.className("shopping_cart_link")).click();
-        Thread.sleep(1000);
+    public void navigateToStepOne() throws InterruptedException {
+        driver.get("https://www.saucedemo.com/cart.html");
+        if (driver.findElements(By.className("shopping_cart_badge")).isEmpty()) {
+            driver.get("https://www.saucedemo.com/inventory.html");
+            driver.findElement(By.id("add-to-cart-sauce-labs-backpack")).click();
+            driver.get("https://www.saucedemo.com/cart.html");
+        }
         driver.findElement(By.id("checkout")).click();
-        Thread.sleep(2000);
+        Thread.sleep(1000);
+    }
 
-        Assert.assertTrue(driver.getCurrentUrl().contains("checkout-step-one.html"),
-                "Not on checkout page!");
+    @Test(priority = 1)
+    public void VerifyOpeningCheckoutPage() throws InterruptedException {
+        navigateToStepOne();
+        Assert.assertTrue(driver.getCurrentUrl().contains("checkout-step-one.html"), "Checkout page failed to open!");
     }
 
     @Test(priority = 2)
-    public void testFirstNameEmptyError() throws InterruptedException {
-        // Leave first name empty, fill others, click continue
-        driver.findElement(By.id("first-name")).clear();
+    public void VerifyStandardInputAccepted() throws InterruptedException {
+        navigateToStepOne();
+        driver.findElement(By.id("first-name")).sendKeys("Abdo");
         driver.findElement(By.id("last-name")).sendKeys("Ali");
         driver.findElement(By.id("postal-code")).sendKeys("14526");
         driver.findElement(By.id("continue")).click();
-        Thread.sleep(1000);
 
-        WebElement error = driver.findElement(By.cssSelector("[data-test='error']"));
-        Assert.assertTrue(error.isDisplayed(), "Error not displayed for empty first name!");
+        Assert.assertTrue(driver.getCurrentUrl().contains("checkout-step-two.html"), "Standard valid data was rejected!");
     }
 
     @Test(priority = 3)
-    public void testLastNameEmptyError() throws InterruptedException {
-        // Refresh/reset by manually clearing fields
-        driver.findElement(By.id("first-name")).clear();
-        driver.findElement(By.id("first-name")).sendKeys("Abdo");
-        driver.findElement(By.id("last-name")).clear();
-        driver.findElement(By.id("postal-code")).clear();
-        driver.findElement(By.id("postal-code")).sendKeys("14526");
-        driver.findElement(By.id("continue")).click();
+    public void VerifyErrorUserCheckoutBug() throws InterruptedException {
+        // Logout and Login as error_user
+        driver.findElement(By.id("react-burger-menu-btn")).click();
         Thread.sleep(1000);
+        driver.findElement(By.id("logout_sidebar_link")).click();
 
-        WebElement error = driver.findElement(By.cssSelector("[data-test='error']"));
-        Assert.assertTrue(error.isDisplayed(), "Error not displayed for empty last name!");
+        driver.findElement(By.id("user-name")).sendKeys("error_user");
+        driver.findElement(By.id("password")).sendKeys("secret_sauce");
+        driver.findElement(By.id("login-button")).click();
+
+        navigateToStepOne();
+
+        // BUG: error_user often has a bug where the Last Name field cannot be filled or clears itself
+        WebElement lastName = driver.findElement(By.id("last-name"));
+        lastName.sendKeys("Ali");
+
+        Assert.assertEquals(lastName.getAttribute("value"), "Ali",
+                "Bug Detected (TC_003): 'error_user' cannot enter data into the Last Name field correctly!");
     }
 
-    @Test(priority = 4)
-    public void testPostalCodeEmptyError() throws InterruptedException {
-        driver.findElement(By.id("first-name")).clear();
-        driver.findElement(By.id("first-name")).sendKeys("Abdo");
-        driver.findElement(By.id("last-name")).clear();
-        driver.findElement(By.id("last-name")).sendKeys("Ali");
-        driver.findElement(By.id("postal-code")).clear();
-        driver.findElement(By.id("continue")).click();
-        Thread.sleep(1000);
+    @Test(priority = 4) // TC_004 - BUG DETECTION (Spaces)
+    public void VerifySpacesInFirstNameRejected() throws InterruptedException {
+        // Reset to standard user if needed (re-login logic)
+        driver.get("https://www.saucedemo.com/");
+        driver.findElement(By.id("user-name")).sendKeys("standard_user");
+        driver.findElement(By.id("password")).sendKeys("secret_sauce");
+        driver.findElement(By.id("login-button")).click();
 
-        WebElement error = driver.findElement(By.cssSelector("[data-test='error']"));
-        Assert.assertTrue(error.isDisplayed(), "Error not displayed for empty postal code!");
+        navigateToStepOne();
+        driver.findElement(By.id("first-name")).sendKeys("   "); // 3 Spaces
+        driver.findElement(By.id("last-name")).sendKeys("Ali");
+        driver.findElement(By.id("postal-code")).sendKeys("12345");
+        driver.findElement(By.id("continue")).click();
+
+        Assert.assertFalse(driver.getCurrentUrl().contains("checkout-step-two.html"),
+                "Bug Detected (TC_004): System accepted a name consisting only of spaces!");
     }
 
-    @Test(priority = 5)
-    public void testFirstNameSpacesError() throws InterruptedException {
-        driver.findElement(By.id("first-name")).clear();
-        driver.findElement(By.id("first-name")).sendKeys("   ");
-        driver.findElement(By.id("last-name")).clear();
+    @Test(priority = 5) // TC_005
+    public void VerifyEmptyFirstNameRejected() throws InterruptedException {
+        navigateToStepOne();
         driver.findElement(By.id("last-name")).sendKeys("Ali");
-        driver.findElement(By.id("postal-code")).clear();
-        driver.findElement(By.id("postal-code")).sendKeys("14526");
+        driver.findElement(By.id("postal-code")).sendKeys("12345");
         driver.findElement(By.id("continue")).click();
-        Thread.sleep(1000);
 
         WebElement error = driver.findElement(By.cssSelector("[data-test='error']"));
-        Assert.assertTrue(error.isDisplayed(), "Error not displayed for spaces in first name!");
+        Assert.assertTrue(error.getText().contains("First Name is required"), "Empty first name was not rejected!");
     }
 
     @Test(priority = 6)
-    public void testValidPostalCodeNumeric() throws InterruptedException {
-        // Correct all fields with numeric postal code (valid)
-        driver.findElement(By.id("first-name")).clear();
-        driver.findElement(By.id("first-name")).sendKeys("Abdo");
-        driver.findElement(By.id("last-name")).clear();
+    public void VerifyFieldMaxBoundary() throws InterruptedException {
+        navigateToStepOne();
+        String longName = "A".repeat(1000);
+        driver.findElement(By.id("first-name")).sendKeys(longName);
         driver.findElement(By.id("last-name")).sendKeys("Ali");
-        driver.findElement(By.id("postal-code")).clear();
-        driver.findElement(By.id("postal-code")).sendKeys("90210");
+        driver.findElement(By.id("postal-code")).sendKeys("12345");
         driver.findElement(By.id("continue")).click();
-        Thread.sleep(2000);
 
-        // After valid submission we should arrive at overview page
-        Assert.assertTrue(driver.getCurrentUrl().contains("checkout-step-two.html"),
-                "Did not reach overview page with valid numeric postal code!");
+        Assert.assertFalse(driver.getCurrentUrl().contains("checkout-step-two.html"),
+                "Bug Detected (TC_006): System accepted a 1000-character name without validation!");
     }
 
     @Test(priority = 7)
-    public void testAllFieldsEmptyError() throws InterruptedException {
-        // Go back to customer info page to test empty fields scenario
-        driver.navigate().back();  // back to step one
-        Thread.sleep(1000);
-        // Clear all fields and submit
-        driver.findElement(By.id("first-name")).clear();
-        driver.findElement(By.id("last-name")).clear();
-        driver.findElement(By.id("postal-code")).clear();
+    public void VerifyMinimumBoundary() throws InterruptedException {
+        navigateToStepOne();
+        driver.findElement(By.id("first-name")).sendKeys("a");
+        driver.findElement(By.id("last-name")).sendKeys("Ali");
+        driver.findElement(By.id("postal-code")).sendKeys("12345");
         driver.findElement(By.id("continue")).click();
-        Thread.sleep(1000);
 
-        WebElement error = driver.findElement(By.cssSelector("[data-test='error']"));
-        Assert.assertTrue(error.isDisplayed(), "Error not displayed when all fields empty!");
+        Assert.assertTrue(driver.getCurrentUrl().contains("checkout-step-two.html"), "Single character name should be accepted.");
     }
 
     @Test(priority = 8)
-    public void testSuccessfulSubmissionToOverview() throws InterruptedException {
-        // Fill with correct data and continue
-        driver.findElement(By.id("first-name")).sendKeys("Abdo");
+    public void VerifyNumbersInNameRejected() throws InterruptedException {
+        navigateToStepOne();
+        driver.findElement(By.id("first-name")).sendKeys("a1aa");
         driver.findElement(By.id("last-name")).sendKeys("Ali");
-        driver.findElement(By.id("postal-code")).sendKeys("14526");
+        driver.findElement(By.id("postal-code")).sendKeys("12345");
         driver.findElement(By.id("continue")).click();
-        Thread.sleep(2000);
 
-        Assert.assertTrue(driver.getCurrentUrl().contains("checkout-step-two.html"),
-                "Successful submission did not navigate to Overview page!");
+        Assert.assertFalse(driver.getCurrentUrl().contains("checkout-step-two.html"),
+                "Bug Detected : System allowed numbers inside the First Name field!");
     }
 }

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [DEPI Gradutaion Project]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="UserStories Automation Testing(failed)" verbose="0">
+    <classes>
+      <class name="CustomerInfo">
+        <methods>
+          <include name="VerifySpacesInFirstNameRejected"/>
+          <include name="VerifyNumbersInNameRejected"/>
+          <include name="VerifyFieldMaxBoundary"/>
+          <include name="globalSetup"/>
+          <include name="logout"/>
+          <include name="preRequisites"/>
+          <include name="VerifyErrorUserCheckoutBug"/>
+        </methods>
+      </class> <!-- CustomerInfo -->
+      <class name="Sort">
+        <methods>
+          <include name="error_User_SortingBug"/>
+          <include name="preRequisites"/>
+          <include name="logout"/>
+          <include name="globalSetup"/>
+        </methods>
+      </class> <!-- Sort -->
+      <class name="CheckoutOverview">
+        <methods>
+          <include name="preRequisites"/>
+          <include name="testCompletionMessageDisplayed"/>
+          <include name="testBackHomeClearsCart"/>
+          <include name="testFinishRedirectsToComplete"/>
+          <include name="testCancelButtonPreservesCart"/>
+          <include name="logout"/>
+          <include name="globalSetup"/>
+          <include name="testFinishButtonEnabled"/>
+        </methods>
+      </class> <!-- CheckoutOverview -->
+      <class name="login">
+        <methods>
+          <include name="Locked_login"/>
+          <include name="logout"/>
+          <include name="globalSetup"/>
+        </methods>
+      </class> <!-- login -->
+    </classes>
+  </test> <!-- UserStories Automation Testing(failed) -->
+</suite> <!-- Failed suite [DEPI Gradutaion Project] -->

@@ -1,8 +1,10 @@
 logout.class
 ProductDetails.class
 Sort.class
+CheckoutOverview.class
 Main.class
 RemoveItemsIntegration.class
+CustomerInfo.class
 Add2Cart.class
 login.class
 E2E.class
