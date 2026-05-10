@@ -31,7 +31,20 @@ public class Default {
         driver = new ChromeDriver(options);
         driver.manage().window().maximize();
     }
-
+    public void get_tocart(){
+        driver.findElement(By.className("shopping_cart_link")).click();
+        driver.findElement(By.id("checkout")).click();
+    }
+    public void fill_checkout(){
+        driver.findElement(By.id("first-name")).sendKeys("Abdo");
+        driver.findElement(By.id("last-name")).sendKeys("Ali");
+        driver.findElement(By.id("postal-code")).sendKeys("14526");
+        driver.findElement(By.id("continue")).click();
+    }
+public void addtocart (){
+    driver.findElement(By.id("add-to-cart-sauce-labs-backpack")).click();
+    driver.findElement(By.id("add-to-cart-sauce-labs-bike-light")).click();
+}
     public void globalLogin() throws InterruptedException {
         driver.get("https://www.saucedemo.com/");
         Thread.sleep(1000);

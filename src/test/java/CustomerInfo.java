@@ -1,4 +1,3 @@
-package BigMarven;
 
 import org.testng.Assert;
 import org.openqa.selenium.By;
